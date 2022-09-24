@@ -1,0 +1,155 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  border: 1px solid black;
+  height: 100vh;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  border: 1px solid black;
+}
+
+.text {
+  display: grid;
+  border: 1px solid black;
+}
+
+.icons {
+  display: grid;
+  border: 1px solid black;
+}
+
+.content {
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+  border: 1px solid black;
+}
+
+.header {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  border: 1px solid black;
+}
+
+.header-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid black;
+}
+
+.leftSide {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid black;
+}
+
+.rightSide {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 1px solid black;
+}
+
+.header-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid black;
+}
+
+.left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid black;
+}
+
+.col {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  border: 1px solid black;
+}
+
+.right {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 1px solid black;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 50px;
+  border: 1px solid black;
+}
+
+.boxes {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 15px;
+  border: 1px solid black;
+}
+
+.announcementsTrending {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 100px;
+  border: 1px solid black;
+}
+
+.boxes1 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  border: 1px solid black;
+}
+
+.box4,
+.box5,
+.box6,
+.box7 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid black;
+}
+
+.trending {
+  display: grid;
+  gap: 15px;
+  border: 1px solid black;
+}
+
+.announcements {
+  display: grid;
+  gap: 15px;
+  border: 1px solid black;
+}
+
+.mainContentAllBoxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: repeat(3, 1fr);
+  gap: 150px;
+  border: 1px solid black;
+}
+
+.box {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  border: 1px solid black;
+}
+
+.mainContentIcons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-self: end;
+  gap: 15px;
+  border: 1px solid black;
+}
