@@ -98,6 +98,7 @@
   color: black;
   padding-left: 2rem;
   padding-top: 2rem;
+  gap: 1.5rem;
 }
 
 .profile-notifications {
@@ -161,4 +162,71 @@
   outline: none;
   cursor: pointer;
   border-radius: 0.8rem;
+}
+
+.projects {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(21rem, 100%), 1fr));
+}
+
+.project {
+  background-color: white;
+}
+
+.announcements-trending {
+  display: grid;
+  height: 25rem;
+  gap: 30px;
+}
+
+.announcements1 {
+  display: grid;
+  background-color: white;
+  padding: 25px;
+  width: 28rem;
+  border-radius: 5px;
+}
+
+.announcement1,
+.announcement2 {
+  padding-bottom: 25px;
+  border-bottom: solid 1px gray;
+}
+
+.announcement3,
+.announcement2 {
+  padding-top: 25px;
+}
+
+.announcements h2,
+.your-projects h2 {
+  margin-bottom: 10px;
+}
+
+.trending-users {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  padding: 15px;
+  background-color: white;
+  width: 28rem;
+  border-radius: 5px;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.user1,
+.user2,
+.user3,
+.user4 {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 1fr 6fr;
+  align-items: center;
+  margin-left: 35px;
+}
+
+.user1-text p {
+  color: gray;
+  font-weight: bold;
 }
