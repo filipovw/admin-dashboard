@@ -88,10 +88,16 @@
   padding-left: 3rem;
   display: grid;
   gap: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 .bottom {
   background-color: #e2e8f0;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  color: black;
+  padding-left: 2rem;
+  padding-top: 2rem;
 }
 
 .profile-notifications {
