@@ -57,6 +57,102 @@
   grid-template-rows: 1fr 5fr;
 }
 
+.search-bar button,
+.profile-notifications button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+.search-bar input {
+  border-radius: 1rem;
+  border-width: 0px;
+  background-color: #e2e8f0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+.search-bar {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+  height: 2rem;
+}
+
+.top {
+  padding-top: 1rem;
+  padding-left: 3rem;
+  display: grid;
+  gap: 1rem;
+}
+
 .bottom {
   background-color: #e2e8f0;
+}
+
+.profile-notifications {
+  display: grid;
+  grid-template-columns: 0.3fr 0.3fr 1fr;
+  align-items: center;
+  color: black;
+}
+
+.profile-notifications p {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 7rem;
+  align-items: center;
+}
+
+.down {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: black;
+  padding-left: 1.5rem;
+  align-items: center;
+  gap: 13rem;
+}
+
+.down-left {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.hi {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.morgan {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.down-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 6rem;
+  gap: 3rem;
+}
+
+.down-right button {
+  color: white;
+  font-weight: bold;
+  background-color: #1a92d4;
+  border: none;
+  padding: 0.6rem 2rem 0.6rem 2rem;
+  outline: none;
+  cursor: pointer;
+  border-radius: 0.8rem;
 }
